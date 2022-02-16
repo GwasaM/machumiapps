@@ -1,0 +1,49 @@
+
+.writeGp{
+    color: black;
+    position: absolute;
+    align-items: center;
+    width: 40%;
+    background-color: rgb(12, 80, 46);;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 30%;
+    border-radius: 20px;
+}
+
+
+.header{
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: darkturquoise;
+    width: 130px;
+}
+
+.lbl{
+    margin-top: 8px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    color: white;
+    background-color:blueviolet;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.txtA{
+    height: 300px;
+    cursor: pointer;
+}
+

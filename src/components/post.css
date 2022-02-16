@@ -1,0 +1,28 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.post-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+    object-fit: cover;
+
+}
+
+.post-ttl{
+    margin-top: 50px;
+
+}
+
+.post-desc{
+    height: 30px;
+    text-align: justify;
+}

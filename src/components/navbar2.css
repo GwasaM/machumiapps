@@ -1,0 +1,25 @@
+.navbar2{
+    background-color: rgba(40, 95, 52 );
+    color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 8px -1px rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+}
+
+.para1{
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.name{
+    color: gold;
+    border-radius: 5px;
+    background-color: rgb(40, 53, 40);
+}

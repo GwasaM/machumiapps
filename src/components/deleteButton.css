@@ -1,0 +1,8 @@
+.deleteButton{
+    background-color: red;
+    color: white;
+    font-size: xx-small;
+    border-radius: 10px;
+    border: none;
+    margin-top:0px;
+}

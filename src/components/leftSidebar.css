@@ -1,0 +1,20 @@
+.leftSidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    margin-top: 250px; 
+    margin-left: 1%;
+}
+
+.lh-4{
+margin: 0.5cm 20px;
+}
+
+.l-sidebar-li{
+    background-color: rgb(250, 198, 67);
+    margin: 10px 20px 5px 15px;
+    padding: 5px;
+    border-radius: 5px;
+    list-style: none;
+}
