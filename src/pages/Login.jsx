@@ -30,6 +30,7 @@ import {UserAuthContextProvider, useUserAuth} from "../context/UserAuthContext";
    
 
   return (
+    <div className = "login-grp" >
   <div className = "login">
       <Link to = "/">
              <img className = "loginLogo" 
@@ -67,6 +68,7 @@ import {UserAuthContextProvider, useUserAuth} from "../context/UserAuthContext";
             
             
           
+  </div>
   </div>
   )
 }

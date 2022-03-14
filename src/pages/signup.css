@@ -1,13 +1,20 @@
+.signup-grp{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
 .register{
     display: flex;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 30px;
     position: absolute;
     align-items: center;
     justify-content: center;
-    background-color: rgb(52, 121, 38);
-    width: 20%;
-    margin-left: 40%;
+    background-color: rgb(191, 204, 189);
+    width: 350px;
+    
     padding: 0px;
     box-shadow: 0px 5px 17px -3px rgba(0, 0, 0, 0.75);
     border-radius: 13px;

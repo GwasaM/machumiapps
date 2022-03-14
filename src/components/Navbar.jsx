@@ -26,10 +26,10 @@ const Navbar = () => {
              </Link>
           </div>
           <ul className = "nav-ul">
-              <li className = "nav-li"><Link className = "link" to = "/home">home</Link></li>
-             <li className = "nav-li"><Link className = "link" to = "/write"> write</Link></li>
-              <li className = "nav-li">settings</li>
-              <li className = "nav-li"><Link className = "link" to = "/aboutus">About Us</Link></li>
+              <li className = "nav-li"><Link className = "link" to = "/home">HOME</Link></li>
+              {/*<li className = "nav-li"><Link className = "link" to = "/write"> WRITE</Link></li>
+              <li className = "nav-li">SETTINGS</li>*/}
+              <li className = "nav-li"><Link className = "link" to = "/aboutus">ABOUT</Link></li>
           </ul>
           </>)}
           <div className = "r-div">

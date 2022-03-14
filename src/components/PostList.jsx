@@ -71,7 +71,7 @@ function PostList() {
             {/*<DeleteButton id = {id} imageUrl = {imageUrl}/>*/}
         </div>
             ) )
-          
+         
         )
       }
       

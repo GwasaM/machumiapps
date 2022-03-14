@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import AboutUs from "./pages/AboutUs";
 import Navbar2 from "./components/Navbar2"
+import Footer from "./components/Footer";
 import './App.css';
 import React, {useState} from "react";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -30,13 +31,17 @@ function App() {
           />
 
           <Route path = "/aboutus" 
-          element = {<AboutUs />} 
+          element = {
+          <ProtectedRoute>
+            <AboutUs />
+          </ProtectedRoute>
+            } 
           />
 
           <Route path = "/write" 
           element = {
           <ProtectedRoute>
-            <Navbar/> && <Navbar2 /> &&
+            <Navbar/><Navbar2 />
             <Write />
           </ProtectedRoute>} 
           />
@@ -44,8 +49,9 @@ function App() {
           <Route path = "/home"
           element = {
           <ProtectedRoute>
-            <Navbar/> && <Navbar2 /> &&
+            <Navbar/><Navbar2 />
             <Home />
+            <Footer />
           </ProtectedRoute>
           }
           />

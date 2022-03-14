@@ -26,6 +26,7 @@ import {UserAuthContextProvider, useUserAuth} from "../context/UserAuthContext";
   };
 
   return(
+    <div className = "signup-grp">
       <div className = "register">
           <Link to = "/">
              <img className = "signupLogo" 
@@ -57,6 +58,7 @@ import {UserAuthContextProvider, useUserAuth} from "../context/UserAuthContext";
             <button className = "frmBtn" type = "submit"><Link className = "link" to = "/">Login</Link></button>
 
           </form>
+      </div>
       </div>
   )
 }

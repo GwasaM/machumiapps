@@ -3,7 +3,9 @@
 
 .postList{
     width: 60%;
-    margin-top: 260px;
+    margin: auto;
+    margin-top: 13em;
+    
 }
 
 
@@ -31,10 +33,13 @@
 }
 
 .post-ttl{
-    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 20px 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -59,6 +64,33 @@
     align-self: flex-end;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgb(53, 38, 38);
+    background: rgb(247, 250, 247);
     cursor: pointer;
+    z-index: -1;
+}
+
+.delete:hover{
+    background:red;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+    .postList{
+        width: 98%;
+        margin: auto;
+        margin-top: 3em;
+    }
+
+    .post-ttl{
+        font-size: large;
+        font-weight: 600;
+        margin: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
